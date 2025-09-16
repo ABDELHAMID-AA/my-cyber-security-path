@@ -1,4 +1,4 @@
-# CompTIA-Security-plus
+# my-cyber-security-path
 # My Security+ Notes & TryHackMe Labs
 
 This repo is my personal study space for **CompTIA Security+ (SY0-701)** and hands-on practice with **TryHackMe**.
@@ -7,14 +7,14 @@ This repo is my personal study space for **CompTIA Security+ (SY0-701)** and han
 
 ## What’s inside
 
-- **notes.md** – all my Security+ notes, like:
+- **SY0-701-notes.md** – all my Security+ notes, like:
   - Security controls
   - CIA, AAA, Non-repudiation
   - Zero trust
   - Gap analysis
   - And more stuff I’m learning day by day
 
-- **TryHackMe labs** – each lab has its own README with:
+- **TryHackMe-labs** – each lab has its own README with:
   - What I tried
   - Commands I used
   - Screenshots

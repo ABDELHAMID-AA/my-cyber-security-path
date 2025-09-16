@@ -7,7 +7,7 @@ This repo is my personal study space for **CompTIA Security+ (SY0-701)** and han
 
 ## What’s inside
 
-- **SY0-701-notes.md** – all my Security+ notes, like:
+- **SY0-701-notes** – all my Security+ notes, like:
   - Security controls
   - CIA, AAA, Non-repudiation
   - Zero trust

@@ -97,3 +97,59 @@ to make it more simple it is to compare where we are and what we have vs what we
 - Implicite trust zones : it means the zones and areas of a networkthat are assumed to be trusted by default but in reality its risky because zero trust approach is more recommended.  
 - Subject / System: the subject is the who or what wants to access while the system (object) is what is being accessed.  
 - Policy Enforcement Point : is the place in a system or a network that applies the access control policies, its like a door guard , he decides who can or can not have the access based on the laws and the policies.
+### 1.2.6 Deception and disruption
+- **Honeypots technique**: a strategy where you let attackers get access to a fake part of your system so you can know what techniques they are trying to use against you. By the end, you will know exactly how to better protect your system.  
+- **Honeynet**: simply a network that is composed of multiple honeypots.  
+- **Honeyfiles**: fake important files that attackers may find very interesting. You can name them with names attackers may find interesting, like `passwords.txt`.  
+- **Honeytoken**: any fake data that can be tracked when it’s used by the attacker.  
+
+---
+
+### 1.3 Explain the importance of change management processes and the impact to security  
+
+#### 1.3.1 Business processes impacting security operation  
+
+##### 1.3.1.1 Approval process
+Before any security or IT change is applied (like a firewall update …) the right authority must approve it.  
+
+##### 1.3.1.2 Ownership
+The owners are the ones managing the process. That doesn’t mean they do the change themselves, but it means they stay informed, and once it’s complete, they are responsible for testing their systems.  
+
+##### 1.3.1.3 Stakeholders
+They are the individuals or the departments that will be impacted by the changes. It’s not easy because a very small change can affect a large number of staff.  
+
+##### 1.3.1.4 Impact analysis
+This means determining the risk value. It can be minor or far-reaching. For example, while trying to apply a change, we may lose everything else. Also, we need to analyze the risk of not doing the change.  
+
+##### 1.3.1.5 Test results
+Using a sandbox environment can be useful because we can apply the changes and see if something unexpected happens. Also, we can test the backout plan if anything goes wrong.  
+
+##### 1.3.1.6 Back out plan
+Means having a plan to delete the changes and go back to the previous version if anything goes wrong.  
+
+##### 1.3.1.7 Maintenance window
+Changes should be applied at specific times when the system has the least amount of use, like weekends and evenings, to minimize disruption.  
+
+---
+
+#### 1.3.2 Technical implications  
+
+##### 1.3.2.1 Allow list / deny list
+- **Allow list**: only permits approved apps to work.  
+- **Deny list**: all apps are allowed except the ones that are black-listed.  
+
+##### 1.3.2.2 Restricted activities
+The organization should decide if there are some specific activities that should be stopped or restricted before, after, or during the changes.  
+
+##### 1.3.2.3 Downtime
+A change may cause a blockage for some systems.  
+
+##### 1.3.2.4 Service restart
+Some changes require restarting to take effect, for example changes in the database.  
+
+##### 1.3.2.5 App restart
+Some changes may need the whole app to restart, not just a service.  
+
+##### 1.3.2.6 Dependencies
+All possible dependencies must be identified and documented.  
+

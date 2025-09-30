@@ -153,3 +153,52 @@ Some changes may need the whole app to restart, not just a service.
 ##### 1.3.2.6 Dependencies
 All possible dependencies must be identified and documented.  
 
+# 1.4: Explain the importance of using appropriate cryptographic solutions
+
+## 1.4.1: public key infrastructure
+
+### 1.4.1.1: public key
+it’s the half of an asymmetric key that is shared openly
+
+### 1.4.1.2 : private key
+it’s the other half of the asymmetric key that is kept privately.
+So in a simple way when i create an asymmetric key, i give the public key to anyone so he can encrypt and send my any data while i keep the private one with me so i can be only who can decrypt that data, also you can never generate the private by reverse engineering the public one.
+
+### 1.4.1.3: key escrow
+It’s when we are giving the private key to a third party so we can have it in case of lost…
+
+## 1.4.2: Encryption
+
+### 1.4.2.1 level
+- Full-disk (FDE): encrypting all the data including the OS.
+- Partition encryption: encrypting a specific files or data instead of the whole disk, it’s useful for dual-boot systems.
+- File level: encrypting to protect individual files (passwords.txt …)
+- Volume encryption: like file encryption but includes folders.
+- Database encryption:
+•	Transparent data encryption (TDE): encrypting the whole database.
+•	Column level encryption (CLE): like the name says its encrypting one or multiple columns of the database.
+- Record level encryption: protecting data by encrypting one or multiple rows of the database
+
+### 1.4.2.2: Transport / communication
+Data on the wire is protected primarily with transport layer security protocol (TLS), confidentiality while transportation.
+
+### 1.4.2.3: symmetric
+Using 1 key for both encrypting and decrypting the data.
+
+### 1.4.2.4: Asymmetric
+Using tow keys, one public for encrypting and the other private for decrypting
+
+### 1.4.2.5 Key exchange:
+- offline distribution: (USB …)
+-Diffie Hellman
+
+### 1.4.2.6: Key length
+Longer key = strong security, modern key use at least 128 bit key
+---
+
+*Sources:*  
+- [infosectrain.com](https://www.infosectrain.com)  
+- [professormesser.com](https://www.professormesser.com)
+- [techtarget.com](https://www.techtarget.com/)
+
+

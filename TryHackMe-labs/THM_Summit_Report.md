@@ -112,14 +112,18 @@ C:\Windows\System32>REM yes, it is working properly so mission succeeded!
 
 ## Example 3
 
-After analyzing the example, this is what it gave us:  
+After analyzing the example, this is what it gave us: 
+
 ![screenshot of the analysis result of example3](images/image6.png)
 
 As we can see in the analysis, the malicious file tried to connect to two DNSs.  
 We will block the malicious one, which appears to be the tester's command and control server.  
+
 ![screenshot of the DNS rule manager](images/image7.png)
 
 Let's use the **DNS Rule Manager**:
+
+![screenshot of the analysis result of example4](images/image8.png)
 
 - **Rule Name:** anything2 (let's give our rule a name)  
 - **Category:** Malware  
@@ -212,9 +216,9 @@ Now, no matter what IP the domain name has, it won’t connect.
 ---
 
 ## Example 4
-
+![screenshot of the Sigma Rule Builder](images/rr.png)  
 After analyzing the example, this is what it gave us:  
-![screenshot of the analysis result of example4](images/image8.png)
+
 
 Let's create a **Sigma rule** that detects changes to registry keys or values such as system settings, security policies, autorun entries, or access control configurations.  
 ![screenshot of the Sigma Rule Builder](images/image9.png)  

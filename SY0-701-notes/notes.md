@@ -200,5 +200,50 @@ Longer key = strong security, modern key use at least 128 bit key
 - [infosectrain.com](https://www.infosectrain.com)  
 - [professormesser.com](https://www.professormesser.com)
 - [techtarget.com](https://www.techtarget.com/)
+# 1.4: Explain the importance of using appropriate cryptographic solutions
+
+## 1.4.3: Tools
+
+### 1.4.3.1: Trusted Platform Module (TPM)
+It is a specialized chip on the computer’s motherboard designed to store cryptographic keys used for encryption, ensuring that our OS is authentic and has not been tampered with.  
+For example, Windows uses it for Windows Hello and BitLocker.
+
+### 1.4.3.2: Hardware Security Module (HSM)
+It’s a dedicated physical device designed to securely generate, store, and manage cryptographic keys and perform cryptographic operations like encryption and decryption.  
+- It has its own CPU and memory.  
+- All operations happen **inside the HSM**.  
+- If someone tries to physically open it, the device automatically erases all the keys.
+
+### 1.4.3.3: Key Management System (KMS)
+A system for managing cryptographic keys and their metadata (generation, encryption, decryption, storage, backup, recovery, use, revocation…).  
+An automated KMS may oversee and automate key management; it can be **software or hardware** and provides a secure framework for key processes.
+
+### 1.4.3.4: Secure Enclave
+It is a part of a processor designed to protect sensitive data like encryption keys and biometric information from unauthorized access.  
+It is commonly found in new devices.
+
+## 1.4.4: Obfuscation
+It’s the process of making something unclear and very difficult to read, but not impossible.
+
+### 1.4.4.1: Steganography
+It is hiding data in images — “security by obscurity.”  
+If we know the process used to hide the data, we can restore it easily.  
+- Image steganography is the most common, but it can also be done through video, audio, or TCP packets.
+
+### 1.4.4.2: Tokenization
+It is mapping real data to random tokens in a secure vault.  
+- No mathematical formula relates the tokens to the real data.  
+- Outside the vault, the tokens are **useless to an attacker**.
+
+### 1.4.4.3: Data Masking
+It’s literally hiding some of the data so that if anyone gains access, it won’t be useful.  
+- Example: hiding the credit card number in a bank app or on a receipt.
+---
+
+*Sources:*  
+- [infosectrain.com](https://www.infosectrain.com)  
+- [professormesser.com](https://www.professormesser.com)  
+- [techtarget.com](https://www.techtarget.com/)
+
 
 

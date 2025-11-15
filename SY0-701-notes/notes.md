@@ -200,7 +200,7 @@ Longer key = strong security, modern key use at least 128 bit key
 - [infosectrain.com](https://www.infosectrain.com)  
 - [professormesser.com](https://www.professormesser.com)
 - [techtarget.com](https://www.techtarget.com/)
-# 1.4: Explain the importance of using appropriate cryptographic solutions
+
 
 ## 1.4.3: Tools
 

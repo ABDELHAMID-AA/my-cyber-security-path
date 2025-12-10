@@ -1,52 +1,35 @@
-# my-cyber-security-path
-# My Security+ Notes & TryHackMe Labs
+# 🚀 My Cybersecurity Journey
 
-This repo is my personal study space for **CompTIA Security+ (SY0-701)** and hands-on practice with **TryHackMe**.
-
----
-
-## What’s inside
-
-- **SY0-701-notes** – all my Security+ notes, like:
-  - Security controls
-  - CIA, AAA, Non-repudiation
-  - Zero trust
-  - Gap analysis
-  - And more stuff I’m learning day by day
-
-- **TryHackMe-labs** – each lab has its own README with:
-  - What I tried
-  - Commands I used
-  - Screenshots
-  - What I learned
-  - Which Security+ topic it is related to
+This repo contains my study notes, labs, and practice for becoming a **SOC Analyst L1**.
 
 ---
 
-## How I use it
+## What’s Inside
 
-- Read my notes to understand the concepts
-- Do the labs to practice hands-on
-- Document everything in the lab README so I can track progress
-- Repeat, review, and learn more every day
+### 1. Security+ Notes
+- SY0-701 concepts: CIA, AAA, Zero Trust, security controls
+- Updated daily as I study
+
+### 2. TryHackMe Labs
+- Commands, screenshots, lessons learned
+- Relates labs to Security+ and SOC work
+
+### 3. Windows Event IDs
+- Event explanations, detection ideas, screenshots
+- Subfolders: Logon, Account Management, Process/Service, PowerShell, Firewall, File-share
+
+### 4. Splunk Lab
+- Server & UF setup, deployment, indexers
+- Architecture diagrams and forwarded logs
 
 ---
 
-## My Goal
-
-- Pass **Security+** exam
-- Get better at real cybersecurity stuff through labs
-- Have all my learning in one place for reference
+## Goals
+- Pass **Security+**
+- Build SOC L1 skills
+- Master log analysis, Windows events, SIEM
+- Secure internship and SOC Analyst L1 role
 
 ---
 
-## Sources
-
-- [Professor Messer](https://www.professormesser.com/)  
-- [Cloudflare](https://www.cloudflare.com/)  
-- [NIST CSRC](https://csrc.nist.gov/)
-- [Tryhackme](https://tryhackme.com/)
-- [Cisco networking academy](https://netacad.com/)
----
-
-> This is my personal repo to track my learning and practice.
+> This repo tracks my cybersecurity learning journey with notes, labs, and reports.
